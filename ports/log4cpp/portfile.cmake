@@ -9,12 +9,15 @@ vcpkg_from_github (
 vcpkg_configure_cmake(
     SOURCE_PATH "${SOURCE_PATH}"
     PREFER_NINJA
+    OPTIONS
+        -DINSTALL_CMAKE_DIR=share/log4cpp
 )
 
 vcpkg_install_cmake()
-vcpkg_fixup_cmake_targets()
+vcpkg_fixup_cmake_targets(CONFIG_PATH lib/cmake/log4cpp TARGET_PATH share/log4cpp)
 
-#file(
-#    INSTALL "${SOURCE_PATH}/LICENSE"
-#    DESTINATION "${CURRENT_PACKAGES_DIR}/share/${PORT}"
-#    RENAME copyright)
+file(REMOVE_RECURSE ${CURRENT_PACKAGES_DIR}/debug ${CURRENT_PACKAGES_DIR}/lib)
+
+# Handle copyright
+configure_file(${SOURCE_PATH}/LICENSE ${CURRENT_PACKAGES_DIR}/share/${PORT}/copyright COPYONLY)
+

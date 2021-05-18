@@ -1,6 +1,6 @@
 {
     "name": "log4cpp",
-    "version-string": "96c716b0d3b4d6921df4bb77d7749aaaeee19dfe",
+    "version": "1.0.0",
     "description": "log4cpp",
     "homepage": "https://github.com/openenergysolutions/log4cpp"
 }

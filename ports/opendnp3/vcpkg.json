@@ -1,6 +1,14 @@
 {
     "name": "opendnp3",
-    "version-string": "5788b0a7238e70076cf0bba45aa8a2e813d194b1",
+    "version-string": "1.0.0",
     "description": "opendnp3",
-    "homepage": "https://github.com/openenergysolutions/opendnp3"
+    "homepage": "https://github.com/openenergysolutions/opendnp3",
+    "dependencies": [
+        "openssl",
+        "asio",
+        "ser4cpp",
+        "exe4cpp",
+        "spdlog",
+        "catch2"
+    ]
 }

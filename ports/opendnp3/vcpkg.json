@@ -1,6 +1,6 @@
 {
     "name": "opendnp3",
-    "version-string": "1.0.0",
+    "version-date": "2021-05-19",
     "description": "opendnp3",
     "homepage": "https://github.com/openenergysolutions/opendnp3",
     "dependencies": [

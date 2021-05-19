@@ -1,6 +1,6 @@
 {
     "name": "modbus-cpp",
-    "version-string": "1.0.0",
+    "version-date": "2021-05-19",
     "description": "modbus-cpp",
     "homepage": "https://github.com/openenergysolutions/modbus-cpp",
     "dependencies": [

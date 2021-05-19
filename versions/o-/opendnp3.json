@@ -3,7 +3,7 @@
         {
             "version-date": "2021-05-19",
             "port-version": 0,
-            "git-tree": "c4fee0e9547234c1698a42936c2199463a14230f"
+            "git-tree": "$/ports/modbus-cpp/2021-05-19"
         }
     ]
 }

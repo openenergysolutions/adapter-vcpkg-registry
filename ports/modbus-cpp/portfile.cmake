@@ -11,6 +11,8 @@ vcpkg_configure_cmake(
     PREFER_NINJA
     OPTIONS
         -DMODBUS_VENDORED_DEPS=OFF
+        -DMODBUS_BUILD_TESTS=OFF
+        -DMODBUS_BUILD_EXAMPLES=OFF
 )
 
 vcpkg_install_cmake()

@@ -4,7 +4,12 @@
             "version": "2.4.0",
             "port-version": 0,
 	    "git-tree": "c5bd5624ce6d208ef19dc7b362f7278b661065f3"
-        }
+        },
+	{
+		"version": "2.4.0",
+		"port-version": 1,
+		"git-tree": "f839a55e676dfcaaf6412e9ff865c9b72e9539b9"
+	}
     ]
 }
  

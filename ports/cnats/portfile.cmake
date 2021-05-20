@@ -20,7 +20,7 @@ vcpkg_configure_cmake(
 )
 
 vcpkg_install_cmake()
-vcpkg_fixup_cmake_targets(CONFIG_PATH lib/cmake/cnats TARGET_PATH share/nats)
+vcpkg_fixup_cmake_targets(CONFIG_PATH lib/cmake/cnats TARGET_PATH share/cnats)
 
 file(REMOVE_RECURSE "${CURRENT_PACKAGES_DIR}/debug/include")
 file(REMOVE_RECURSE "${CURRENT_PACKAGES_DIR}/debug/share")

@@ -1,0 +1,30 @@
+# SPDX-FileCopyrightText: 2021 Open Energy Solutions Inc
+#
+# SPDX-License-Identifier: Apache-2.0
+
+# any cmake build directories that begin with "build"
+/build*
+
+# clion stuff
+/.idea/
+/cmake-build-*
+
+/codegen/target
+/codegen/*.iml
+/codegen/*.idea
+
+# Visual Studio Code
+/.vscode
+*.un~
+
+# Nix output
+result*
+result-dev
+
+# docker tars
+*.tar.gz
+*.tar
+
+# python env
+env
+*~

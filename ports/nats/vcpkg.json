@@ -1,0 +1,6 @@
+{
+	"name": "nats",
+	"version": "2.4.0",
+	"description": "NATS and NATS Streaming Client in C",
+	"homepage": "https://github.com/nats-io/nats.c"
+}

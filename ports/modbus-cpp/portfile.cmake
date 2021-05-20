@@ -1,8 +1,10 @@
+vcpkg_check_linkage(ONLY_STATIC_LIBRARY)
+
 vcpkg_from_github (
     OUT_SOURCE_PATH SOURCE_PATH
     REPO openenergysolutions/modbus-cpp
-    REF 4287a7fa582c0e91deb930abdb24f170720643db
-    SHA512 e3e74d911783f4138c8435ccfff4bc4a64daceb00389de692bdd8faf825a68294a5725d2c2c10bd9f73c93e1e0e79836758ed0a609515753c577dfcc147efbff
+    REF 4e5d5fcf8c838beb25b6e21be90416a5be576a01
+    SHA512 634622e1da05d57a8bc78ed72554e8c59183d7ce92d2801a522fabd0a73bddbcfa5dcd223e7dbcff3d642f87fd3b80a68119d3560b1a0c148f8f4c03d1b8d7f4
     HEAD_REF master
 )
 

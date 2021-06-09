@@ -15,10 +15,15 @@
             "port-version": 2,
             "git-tree": "2233617983b6ac18e15c62c2275ed8801dcc86bf"
         },
-	{
-	    "version-date": "2021-05-19",
-	    "port-version": 3,
-	    "git-tree": "af4b5ee10010fffcb683c1e96a31f8fbaa437f20"
-	}
+        {
+            "version-date": "2021-05-19",
+            "port-version": 3,
+            "git-tree": "af4b5ee10010fffcb683c1e96a31f8fbaa437f20"
+        },
+        {
+            "version-date": "2021-06-09",
+            "port-version": 0,
+            "git-tree": "f54d1c85fa6ef3134473b304556be4a6a5451f47"
+        }
     ]
 }
